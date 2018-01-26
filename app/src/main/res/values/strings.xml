@@ -6,6 +6,6 @@
     <string name="alipay_shoukuan">收款（支）</string>
     <string name="wx_fukuan">付款（微）</string>
     <string name="wx_scan">扫码（微）</string>
-    <string name="wx_shoukuan">收款微）</string>
+    <string name="wx_shoukuan">收款（微）</string>
 
 </resources>
