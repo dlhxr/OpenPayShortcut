@@ -79,6 +79,16 @@
                 android:resource="@xml/weixinwidget" />
         </receiver>
 
+        <receiver android:name=".service.OneRowWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="WIDGET_BROADCAST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/onerowwidget" />
+        </receiver>
     </application>
 
 </manifest>
