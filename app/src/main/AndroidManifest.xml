@@ -44,6 +44,14 @@
             android:name=".activity.pay.WalletOfflineCoinPurseUI"
             android:launchMode="singleInstance"
             android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name=".activity.pay.OfoScanActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name=".activity.pay.MobikeScanActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoDisplay" />
 
 
         <receiver android:name=".service.AllWidget">

@@ -12,9 +12,12 @@ import com.suda.openpayshortcut.R;
 import com.suda.openpayshortcut.activity.pay.BaseScanUI;
 import com.suda.openpayshortcut.activity.pay.CollectMainUI;
 import com.suda.openpayshortcut.activity.pay.MainCaptureActivity;
+import com.suda.openpayshortcut.activity.pay.MobikeScanActivity;
+import com.suda.openpayshortcut.activity.pay.OfoScanActivity;
 import com.suda.openpayshortcut.activity.pay.OspTabHostActivity;
 import com.suda.openpayshortcut.activity.pay.PayeeQRActivity;
 import com.suda.openpayshortcut.activity.pay.WalletOfflineCoinPurseUI;
+
 
 /**
  * Created by guhaibo on 2017/10/13.
@@ -54,9 +57,9 @@ public class OneRowWidget extends AppWidgetProvider {
         if (intent.getAction().equals(WIDGET_BROADCAST)) {
             RemoteViews rv = new RemoteViews(context.getPackageName(), R.layout.onerow_widget_layout);
 
-            Intent intentNew = new Intent(context, PayeeQRActivity.class);
+            Intent intentNew = new Intent(context, MobikeScanActivity.class);
             PendingIntent pending = PendingIntent.getActivity(context, 0, intentNew, PendingIntent.FLAG_UPDATE_CURRENT);
-            rv.setOnClickPendingIntent(R.id.PayeeQRActivity, pending);
+            rv.setOnClickPendingIntent(R.id.MobikeScanActivity, pending);
 
             intentNew = new Intent(context, OspTabHostActivity.class);
             pending = PendingIntent.getActivity(context, 0, intentNew, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -66,9 +69,9 @@ public class OneRowWidget extends AppWidgetProvider {
             pending = PendingIntent.getActivity(context, 0, intentNew, PendingIntent.FLAG_UPDATE_CURRENT);
             rv.setOnClickPendingIntent(R.id.MainCaptureActivity, pending);
 
-            intentNew = new Intent(context, CollectMainUI.class);
+            intentNew = new Intent(context, OfoScanActivity.class);
             pending = PendingIntent.getActivity(context, 0, intentNew, PendingIntent.FLAG_UPDATE_CURRENT);
-            rv.setOnClickPendingIntent(R.id.CollectMainUI, pending);
+            rv.setOnClickPendingIntent(R.id.OfoScanActivity, pending);
 
             intentNew = new Intent(context, WalletOfflineCoinPurseUI.class);
             pending = PendingIntent.getActivity(context, 0, intentNew, PendingIntent.FLAG_UPDATE_CURRENT);

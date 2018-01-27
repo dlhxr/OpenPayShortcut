@@ -26,11 +26,11 @@
             android:src="@drawable/alipay_scan" />
 
         <ImageView
-            android:id="@+id/PayeeQRActivity"
+            android:id="@+id/OfoScanActivity"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/alipay_shoukuan" />
+            android:src="@drawable/ofo_scan" />
 
         <ImageView
             android:id="@+id/WalletOfflineCoinPurseUI"
@@ -48,11 +48,11 @@
             android:src="@drawable/wx_scan" />
 
         <ImageView
-            android:id="@+id/CollectMainUI"
+            android:id="@+id/MobikeScanActivity"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/wx_shoukuan" />
+            android:src="@drawable/mobike_scan" />
     </LinearLayout>
 
 </LinearLayout>
