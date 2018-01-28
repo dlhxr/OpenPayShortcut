@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void showGithub(){
-        ((TextView)findViewById(R.id.github_tv)).setText(Html.fromHtml("Github 项目地址：<a href=\"https://github.com/ghbhaha/OpenPayShortcut\">https://github.com/ghbhaha/OpenPayShortcut</a>"));
+        ((TextView)findViewById(R.id.github_tv)).setText(Html.fromHtml("Github 项目地址：<a href=\"https://github.com/dlhxr/OpenPayShortcut\">https://github.com/ghbhaha/OpenPayShortcut</a>"));
         ((TextView)findViewById(R.id.github_tv)).setMovementMethod(LinkMovementMethod.getInstance());
     }
 

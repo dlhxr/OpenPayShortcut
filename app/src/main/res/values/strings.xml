@@ -7,5 +7,7 @@
     <string name="wx_fukuan">付款（微）</string>
     <string name="wx_scan">扫码（微）</string>
     <string name="wx_shoukuan">收款（微）</string>
+    <string name="ofo_scan">骑行（ofo）</string>
+    <string name="mobike_scan">骑行（mobike）</string>
 
 </resources>

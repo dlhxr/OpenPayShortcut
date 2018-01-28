@@ -73,4 +73,28 @@
             <!--android:targetPackage="com.suda.openpayshortcut" />-->
     <!--</shortcut>-->
 
+ <!--   <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ofo_scan"
+        android:shortcutId="OfoScanActivity"
+        android:shortcutShortLabel="@string/ofo_scan">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.suda.openpayshortcut.activity.pay.OfoScanActivity"
+            android:targetPackage="com.suda.openpayshortcut" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/mobike_scan"
+        android:shortcutId="MobikeScanActivity"
+        android:shortcutShortLabel="@string/mobike_scan">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.suda.openpayshortcut.activity.pay.MobikeScanActivity"
+            android:targetPackage="com.suda.openpayshortcut" />
+    </shortcut>-->
+
 </shortcuts>
